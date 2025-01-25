@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Republic Day Celebration</title>
+    <style>
+        /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(207,194,203,1) 34%, rgba(196,201,203,1) 46%, rgba(148,233,205,1) 100%);;
+    color: #333;
+    text-align: center;
+}
+
+/* Container to center the content */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header h1{
+    font-size: 3rem;
+    color:  rgb(138, 190, 15);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);;
+    margin-top: 20px;
+}
+
+header .subheading {
+    font-size: 1.5rem;
+    color: hsl(311, 86%, 27%);
+}
+
+/* Scrolling Text */
+.scrolling-text {
+    font-size: 1.2rem;
+    color: #000080;
+    margin: 20px 0;
+    font-weight: bold;
+    background-color: #c0f422;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Flag Section */
+.flag-container {
+    margin: 30px 0;
+}
+
+.flag {
+    width: 300px;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin: 0 auto;
+}
+
+.orange, .white, .green {
+    height: 60px;
+    width: 100%;
+}
+
+.orange {
+    background-color: #FF9933;
+}
+
+.white {
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.chakra {
+    background-color: #000080;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.green {
+    background-color: #138808;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #be3b99;
+}
+
+footer p {
+    font-size: 1.1rem;
+    color: #0b7c82;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Happy Republic Day!</h1>
+            <p class="subheading">Celebrating the spirit of democracy and unity</p>
+        </header>
+
+        <!-- Scrolling Text -->
+        <marquee class="scrolling-text" behavior="scroll" direction="left" scrollamount="10">
+            Wishing you a Happy Republic Day! Let’s celebrate the values of freedom, democracy, and unity!
+        </marquee>
+
+        <section class="flag-container">
+            <div class="flag">
+                <div class="orange"></div>
+                <div class="white">
+                    <div class="chakra"></div>
+                </div>
+                <div class="green"></div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Republic Day - India</p>
+        </footer>
+    </div>
+</body>
+</html>
